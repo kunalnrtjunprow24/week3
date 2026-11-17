@@ -5,29 +5,6 @@ import viteLogo from './assets/vite.svg'
 import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
-<section id="center">
-<div class="grid grid-flow-col grid-rows-4 gap-4">
-  <div>01</div>
-  <!-- ... -->
-  <div>05</div>
-  <div class="row-span-3 grid grid-rows-subgrid gap-4">
-    <div class="row-start-2">06</div>
-  </div>
-  <div>07</div>
-  <!-- ... -->
-  <div>10</div>
-</div>
-  <div class="hero">
-    <img src="${heroImg}" class="base" width="170" height="179">
-    <img src="${javascriptLogo}" class="framework" alt="JavaScript logo"/>
-    <img src="${viteLogo}" class="vite" alt="Vite logo" />
-  </div>
-  <div>
-    <h1 class="text-xl font-bold" >Get started</h1>
-    <p>Edit <code>src/main.js</code> and save to test <code>HMR</code></p>
-  </div>
-  <button id="counter" type="button" class="counter"></button>
-</section>
 
 <div class="ticks"></div>
 
